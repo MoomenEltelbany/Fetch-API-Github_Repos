@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: 50px auto;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.container h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.container > p {
+    text-align: center;
+    font-size: 19px;
+    margin: 20px;
+}
+
+.container input {
+    width: 400px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid transparent;
+}
+
+.container input:focus {
+    border: 1px solid #001c55;
+}
+
+.container button {
+    width: 100px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #001c55;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.container .show-repos {
+    background-color: #f6f6f6;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.container .show-repos p {
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.container .show-repos div {
+    background-color: #5867b6;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.show-repos .repos-stars span,
+.show-repos .repos-stars a {
+    padding: 15px;
+    width: 140px;
+    margin-right: 20px;
+    color: white;
+
+    padding: 5px 10px;
+}
+
+.show-repos .repos-stars .stars {
+    background-color: #0e6ba8;
+}
+
+.show-repos .forks {
+    background-color: #0a2472;
+}
+.show-repos .repos-stars a {
+    text-decoration: none;
+    background-color: #001c55;
+}
+
+.show-repos .repos-stars i {
+    margin-right: 10px;
+}
